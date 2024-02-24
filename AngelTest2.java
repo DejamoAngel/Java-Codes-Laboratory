@@ -1,8 +1,8 @@
-public class Age
-{  
+public class AngelTest2
+{
    private int agec, agei, aget;
    
-   public Age(int agec, int agei, int aget)
+   public AngelTest2(int agec, int agei, int aget)
    {
       this.agec = agec;
       this.agei = agei;
