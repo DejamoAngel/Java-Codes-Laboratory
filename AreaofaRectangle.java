@@ -1,26 +1,26 @@
 public class AreaofaRectangle
 {
-   private double base, height;
+   private double l, w;
    
-   public AreaofaRectangle(double base, double height)
+   public AreaofaRectangle(double l, double w)
    {
-      this.base = base;
-      this.height = height;   
+      this.l = l;
+      this.w = w;   
    }
    
-   public double getbase()
+   public double getl()
    {
-      return this.base;
+      return this.l;
    }
    
-   public double getheight()
+   public double getw()
    {
-      return this.height;
+      return this.w;
    }
 
    public double calc()
    {
-      return ((getbase() * getheight()) / 2);
+      return getl() * getw();
    }
 
 }

@@ -5,14 +5,14 @@ public class Rectangle
    {
       
       Scanner s = new Scanner(System.in);
-      double base, height;
-      System.out.print("Base: ");
-      base  = s.nextInt();
+      double l, w;
+      System.out.print("Length: ");
+      l  = s.nextDouble();
       
-      System.out.print("Height: ");
-      height  = s.nextInt(); 
+      System.out.print("Width: ");
+      w  = s.nextDouble(); 
       
-      AreaofaRectangle a = new AreaofaRectangle(base, height);
+      AreaofaRectangle a = new AreaofaRectangle(l, w);
       System.out.printf("Area of the rectangle is: %.2f", a.calc());
    }
 }
